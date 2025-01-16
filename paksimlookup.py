@@ -4,22 +4,6 @@ from bs4 import BeautifulSoup
 from prettytable import PrettyTable 
 
 # Function to display the GitHub profile and banner
-def show_banner():
-    banner = """
-
-    ==========================================================================    
-   | Use this tool to fetch details using either:                             |
-   | --number <number> (must start with 92) or --cnic <cnic> (without dashes) |
-   |++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
-   | Example Usage:                                                           |
-   | python3 paksimlookup.py --number 923001234567                            |
-   | python3 paksimlookup.py --cnic 1234512345671                             |
-   |__________________________________________________________________________|
-                                         | GitHub: 0kraven | justanormalguy   |
-                                         |____________________________________|     
-    """
-
-    print(banner)
 
 # Function to validate the phone number (should start with 92)
 def validate_phone_number(number):
@@ -97,7 +81,7 @@ def parse_arguments():
 
     # Ensure that either --number or --cnic is provided
     if not args.number and not args.cnic:
-        show_banner()  # Show the help banner when no argument is passed
+        
         return None  # Return None if no arguments are provided
 
     return args
@@ -109,6 +93,7 @@ def main():
 
     # If no arguments are provided, return early
     if not args:
+        print("usage: paksimlookup.py [-h] [--number NUMBER] [--cnic CNIC]")
         return
 
     # Fetch details based on input
