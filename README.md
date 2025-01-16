@@ -57,7 +57,10 @@ apt install openvpn -y
 
 ## Usage
 Run the following commands from your terminal:
-
+### For help
+```bash
+python3 paksimlookup.py --help
+```
 ### Using Mobile Number
 ```bash
 python3 paksimlookup.py --number 923001234567
@@ -76,10 +79,6 @@ python3 paksimlookup.py --cnic 1234512345671
 | 923001234567 | abcdef   | 1234512345671 |   xyz    |
 +----------------------------------------------------+
 ```
-
-
-## Author
-- GitHub: [Okraven](https://github.com/0kraven)
 ---
 
 ## Legal Disclaimer
