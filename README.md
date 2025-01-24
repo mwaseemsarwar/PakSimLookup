@@ -1,3 +1,7 @@
+
+# *NOTE: The tool currently does not work, hopefully soon i will update it*
+
+---
 # PakSimLookup
 
 ## Overview
