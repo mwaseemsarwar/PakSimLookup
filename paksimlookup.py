@@ -129,9 +129,9 @@ def main():
 |+| - Enter the required information when prompted.                           |+|
 |+|                                                                           |+|
 |+| Example Usages:                                                           |+|
-|+| python paksimlookup.py --number 923001234567                              |+|
-|+| python paksimlookup.py --cnic 1234567890123                               |+|
-|+| python paksimlookup.py --help                                             |+|
+|+| python3 paksimlookup.py --number 923001234567                             |+|
+|+| python3 paksimlookup.py --cnic 1234567890123                              |+|
+|+| python3 paksimlookup.py --help                                            |+|
 |+|                                                                           |+|
 <===============================================================================>
         """
