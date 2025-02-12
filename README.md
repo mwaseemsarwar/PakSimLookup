@@ -11,6 +11,7 @@ PakSimLookup is a Python-based tool designed to extract information using either
 ## 🌟 Features
 - 🔍 Fetch details using a **mobile number** (must start with 0 and be 11 digits long).
 - 🔍 Fetch details using a **CNIC** (without dashes and exactly 13 digits long).
+- 💾 Provides Information of SIM Owners Registered in or Before 2020.
 
 ## 📋 Requirements
 - 🐍 Python 3.x
