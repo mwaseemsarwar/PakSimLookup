@@ -124,12 +124,8 @@ def main():
 |+| --cnic [CNIC]     : Lookup details by CNIC (13 digits, no dashes)         |+|
 |+| --help            : Enter help mode for interactive input                 |+|
 |+|                                                                           |+|
-|+| Manual Mode:                                                              |+|
-|+| - Choose to search by either phone number or CNIC.                        |+|
-|+| - Enter the required information when prompted.                           |+|
-|+|                                                                           |+|
 |+| Example Usages:                                                           |+|
-|+| python3 paksimlookup.py --number 923001234567                             |+|
+|+| python3 paksimlookup.py --number 03001234567                              |+|
 |+| python3 paksimlookup.py --cnic 1234567890123                              |+|
 |+| python3 paksimlookup.py --help                                            |+|
 |+|                                                                           |+|
